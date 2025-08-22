@@ -1,28 +1,10 @@
-# Array Sorting in Java
-
-![Output](output.PNG)
-
-## Description
-
-This Java program takes an array of 10 integers, sorts them in **ascending order** using the **Selection Sort algorithm**, and prints the array after each iteration to demonstrate the sorting process. It is designed for educational purposes to illustrate basic array manipulation and sorting in Java.
-
-## Features
-
-- Sorts an array of integers in ascending order.
-- Displays the original array.
-- Shows the array state after each iteration.
-- Prints the final sorted array clearly.
-
-## Program Code
-
-```java
 import java.util.Arrays;
 
 public class ArraySort {
 
     public static void main(String[] args) {
         int min, temp;
-        int[] arr = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+        int[] arr = { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
 
         System.out.println("Original Array: " + Arrays.toString(arr));
 
@@ -44,4 +26,3 @@ public class ArraySort {
         System.out.println("\nSorted Array: " + Arrays.toString(arr));
     }
 }
-```
